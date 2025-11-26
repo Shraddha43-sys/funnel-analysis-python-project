@@ -1,45 +1,51 @@
-# funnel-analysis-python-project
-Student Funnel Analysis – Data Cleaning, Merging &amp; Funnel Conversion using Python
-🎓 Student Funnel Analysis Using Python
+# EdTech Funnel Analysis
+This project analyzes user engagement and course completion data for an EdTech platform. 
+It visualizes the learning funnel, identifies bottleneck stages, and provides insights 
+to improve user retention and course completion rates.
+**Dataset:** [online_course_engagement_data.csv  ](https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-dataset?utm_source)
+Contains user-level course engagement data including:
+- UserID
+- CourseCategory
+- DeviceType
+- TimeSpentOnCourse
+- NumberOfVideosWatched
+- NumberOfQuizzesTaken
+- QuizScores
+- CourseCompletion
 
-A complete end-to-end data cleaning, merging, transformation and funnel analysis project using Python.
-This project demonstrates how to analyze a student learning journey from registration → activity → assessment → outcome using data engineering + analysis techniques.
+**Tools & Libraries Used:**
+- Python 3
+- Pandas
+- Plotly
+- Matplotlib
 
-This is an end-to-end Python project where we analyze a student’s learning funnel 
-from registration → activity → assessment → final outcome.
+1. Data Cleaning & Preprocessing  
+2. Funnel Stages Creation:
+   - Visited
+   - Engaged
+   - Active Learner
+   - Achiever
+   - Completed
+3. Overall Funnel Analysis
+4. DeviceType Segmentation Analysis
+5. CourseCategory Segmentation Analysis
+6. Visualization:
+   - Interactive funnel charts (Plotly)
+   - Bar charts (Matplotlib)
+7. Key Insights & Recommendations
 
-We clean datasets, merge them, build a unified table, and analyze conversion rates 
-using Python (Pandas, Numpy, Matplotlib, Seaborn).
-
-### 📂 Datasets Used
-- registration.csv – student signup info
-- student_vle.csv – student online activity
-- assessment.csv – quiz/exam results
-### 🔧 Steps Performed
-1. Data Cleaning  
-2. Handling missing values  
-3. Combining + merging datasets  
-4. Creating final clean master table  
-5. Building funnel stages  
-6. Data analysis & visualization
-
-### 🔍 Funnel Stages Defined
-1. Registration → Student signs up
-2. Active Learning → Watching videos / reading course material
-3. Assessment → Student attempts quizzes or exams
-4. Conversion → Student completes the course / passes assessment
-
-   ### 📊 Key Insights
-- Around 65% students who registered actually became active learners.
-- Out of all active learners, only 40% reached assessments.
-- Final conversion rate (Registration → Passed Assessment) was around 22%.
-- Highest drop-off happened between Activity → Assessment stage.
-
-### 🧠 What I Learned
-- How to clean messy datasets with Python  
-- How to merge multiple CSV files  
-- How to create a master table  
-- How to build funnel metrics  
-- How to visualize funnel drop-offs  
-- How to communicate insights like a data analyst
-
+- Major drop-offs occur in the Achiever → Completed stage.
+- DeviceType and CourseCategory segmentation shows bottleneck stages vary by segment.
+- Recommendations:
+   - Target high drop-off stages with notifications, incentives, or content improvements.
+   - Focus on Achiever → Completed stage for maximum impact.
+1. Clone this repository
+2. Open `EdTech_Funnel_Analysis.ipynb` in Jupyter Notebook or VS Code
+3. Ensure required libraries are installed:
+   - pandas
+   - plotly
+   - matplotlib
+4. Run the notebook cells sequentially
+**Author:** Shraddha Patil  
+**LinkedIn:** [Your LinkedIn URL]  
+**GitHub:** [Your GitHub URL]
