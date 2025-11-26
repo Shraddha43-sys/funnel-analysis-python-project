@@ -21,10 +21,25 @@ using Python (Pandas, Numpy, Matplotlib, Seaborn).
 3. Combining + merging datasets  
 4. Creating final clean master table  
 5. Building funnel stages  
-6. Data analysis & visualization  
+6. Data analysis & visualization
 
 ### 🔍 Funnel Stages Defined
 1. Registration → Student signs up
 2. Active Learning → Watching videos / reading course material
 3. Assessment → Student attempts quizzes or exams
 4. Conversion → Student completes the course / passes assessment
+
+   ### 📊 Key Insights
+- Around 65% students who registered actually became active learners.
+- Out of all active learners, only 40% reached assessments.
+- Final conversion rate (Registration → Passed Assessment) was around 22%.
+- Highest drop-off happened between Activity → Assessment stage.
+
+### 🧠 What I Learned
+- How to clean messy datasets with Python  
+- How to merge multiple CSV files  
+- How to create a master table  
+- How to build funnel metrics  
+- How to visualize funnel drop-offs  
+- How to communicate insights like a data analyst
+
